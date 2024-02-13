@@ -7,10 +7,12 @@ const Feature = () => {
       <div className="hero min-h-screen bg-primary text-secondary">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
+            data-aos="flip-left"
+            data-aos-duration="2500"
             src={img}
             className="lg:max-w-2xl max-w-sm rounded-lg shadow-2xl "
           />
-          <div>
+          <div data-aos="fade-up" data-aos-duration="2000">
             <h2 className="mb-6 lg:text-5xl text-5xl font-bold ">
               It's <span> so easy...</span>
             </h2>

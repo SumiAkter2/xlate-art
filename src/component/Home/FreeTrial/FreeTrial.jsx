@@ -2,6 +2,8 @@ import bannerImg from "../../../assets/images/banner2.jpg";
 const FreeTrial = () => {
   return (
     <div
+      data-aos="zoom-in"
+      data-aos-duration="1500"
       className="hero h-full "
       style={{
         backgroundImage: `url(${bannerImg})`,

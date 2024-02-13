@@ -27,100 +27,198 @@ const Gallery = () => {
 
         <div class="row ">
           <div class="column">
-            <img
-              src={img1}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img1}
+                style={{ width: "100%" }}
+                className="myImg "
+                alt="gym-img"
+              />
+            </div>
 
-            <img
-              src={img2}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
-            <img
-              src={img3}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img2}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img3}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
           </div>
           <div class="column">
-            <img
-              src={img5}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
-            <img
-              src={img6}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img5}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img6}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
 
-            <img
-              src={img7}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img7}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
           </div>
 
           <div class="column">
-            <img
-              src={img8}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
-            <img
-              src={img9}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
-            <img
-              src={img10}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
-            <img
-              src={img11}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img8}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img9}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img10}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img11}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
           </div>
 
           <div class="column">
-            <img
-              src={img4}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
-            <img
-              src={img12}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
-            <img
-              src={img13}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
-            <img
-              src={img14}
-              style={{ width: "100%" }}
-              className="myImg"
-              alt="gym-img"
-            />
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img4}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img12}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img13}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
+            <div
+              data-aos="fade-down
+              "
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <img
+                src={img14}
+                style={{ width: "100%" }}
+                className="myImg"
+                alt="gym-img"
+              />
+            </div>
           </div>
         </div>
       </div>
