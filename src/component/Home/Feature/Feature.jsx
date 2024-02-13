@@ -10,7 +10,7 @@ const Feature = () => {
             data-aos="fade-down"
             data-aos-duration="2500"
             src={img}
-            className="lg:max-w-2xl w-[300px] md:w-[600px] mx-auto rounded-lg shadow-2xl "
+            className="lg:w-[650px] w-[300px] md:w-[600px] mx-auto rounded-lg shadow-2xl "
           />
           <div data-aos="fade-up" data-aos-duration="2000">
             <h2 className="mb-6 lg:text-5xl text-5xl font-bold ">
