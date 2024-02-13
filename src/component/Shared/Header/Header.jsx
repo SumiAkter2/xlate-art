@@ -4,7 +4,7 @@ const Header = ({ children }) => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full navbar bg-base-300">
+        <div className="w-full navbar bg-primary text-secondary">
           <div
             className="flex-1 px-2 mx-2 text-3xl font-bold"
             style={{ fontFamily: '"Cardo", serif' }}
@@ -48,19 +48,19 @@ const Header = ({ children }) => {
         {/* Page content here */}
         {children}
       </div>
-      <div className="drawer-side">
+      <div className="drawer-side z-50">
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu p-4 w-80 min-h-full bg-base-200">
+        <ul className="menu p-4 w-80 min-h-full bg-primary gap-y-6 text-xl font-sans">
           {/* Sidebar content here */}
           <li>
-            <a>Sidebar Item 1</a>
+            <a>Sign In</a>
           </li>
           <li>
-            <a>Sidebar Item 2</a>
+            <a>Register</a>
           </li>
         </ul>
       </div>
