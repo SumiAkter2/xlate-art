@@ -1,7 +1,7 @@
 import bannerImg from "../../assets/images/banner4.jpg";
 const Banner = () => {
   return (
-    <div>
+   
       <div
         className="hero min-h-screen"
         style={{
@@ -26,7 +26,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 
