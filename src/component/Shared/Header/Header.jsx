@@ -1,6 +1,6 @@
 const Header = ({ children }) => {
   return (
-    <div className="drawer drawer-end">
+    <div className="drawer drawer-end lg:px-12 px-6">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
