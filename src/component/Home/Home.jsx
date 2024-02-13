@@ -12,7 +12,7 @@ const Home = () => {
   });
 
   return (
-    <div>
+    <div className="bg-primary">
       <Banner />
       <Gallery />
       <Feature />

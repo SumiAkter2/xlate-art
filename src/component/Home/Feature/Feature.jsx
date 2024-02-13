@@ -3,7 +3,7 @@ import { FaRegDotCircle } from "react-icons/fa";
 
 const Feature = () => {
   return (
-    <div className="lg:px-12 px-6">
+    <div className="lg:px-12 px-6 bg-primary">
       <div className="hero min-h-screen bg-primary text-secondary">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
