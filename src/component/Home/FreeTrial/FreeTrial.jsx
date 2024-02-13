@@ -19,7 +19,7 @@ const FreeTrial = () => {
           <p className="mb-5 text-2xl font-sans ">
             Use Exhibit! to highlight your exhibits!
           </p>
-          <button className="btn btn-primary mt-4 text-xl btn-outline ">
+          <button className="btn btn-primary mt-4 text-xl  ">
             Sign Up Now!
           </button>
         </div>
