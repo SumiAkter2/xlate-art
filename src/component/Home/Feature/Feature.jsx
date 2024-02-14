@@ -20,11 +20,19 @@ const Feature = () => {
             className="lg:h-[500px] lg:w-[700px] w-[300px] md:w-[600px] mx-auto rounded-lg shadow-2xl "
           />
           <div>
-            <img className=" w-80 h-60 " src={cardImg} alt="card-img " />
+            <img
+              data-aos="flip-left"
+              data-aos-duration="2000"
+              className=" w-80 h-60 "
+              src={cardImg}
+              alt="card-img "
+            />
 
             <div className="mt-8">
               <span className="text-sm font-bold">Scan here:</span>
               <img
+                data-aos="flip-right"
+                data-aos-duration="2500"
                 src={qrImg}
                 alt="qr-code-img"
                 className="w-[380px] h-60 lg:-ml-5"
