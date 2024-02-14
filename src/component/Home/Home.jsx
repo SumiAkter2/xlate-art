@@ -3,7 +3,6 @@ import "aos/dist/aos.css";
 import Banner from "./Banner";
 import Feature from "./Feature/Feature";
 import FreeTrial from "./FreeTrial/FreeTrial";
-import Gallery from "./Gallery/Gallery";
 import { useEffect } from "react";
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
   return (
     <div className="bg-primary">
       <Banner />
-      {/* <Gallery /> */}
       <Feature />
       <FreeTrial />
     </div>
