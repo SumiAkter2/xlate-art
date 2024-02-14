@@ -17,12 +17,12 @@ const Banner = () => {
           className="max-w-2xl bg-gray-300 bg-opacity-50 rounded-md p-12"
         >
           <h1
-            className="mb-5 text-5xl font-bold"
+            className="mb-5 text-5xl lg:text-[64px] font-bold"
             style={{ fontFamily: '"Cardo", serif' }}
           >
             Museums
           </h1>
-          <p className="mb-5 text-2xl font-sans ">
+          <p className="mb-5 lg:text-4xl text-3xl font-sans leading-10">
             Let Your Exhibits Talk To Your Visitors In Their Own Language!
           </p>
           <button className="btn btn-secondary mt-4 text-xl btn-outline ">
