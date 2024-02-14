@@ -22,7 +22,9 @@ const FreeTrial = () => {
             Use Exhibit! to highlight your exhibits!
           </p>
           <button className="btn btn-primary mt-4 text-xl  ">
-            Sign Up Now!
+            <a href="https://xlate.art/sendmuseumemailwithjsform.html">
+              Sign Up Now!
+            </a>
           </button>
         </div>
       </div>
