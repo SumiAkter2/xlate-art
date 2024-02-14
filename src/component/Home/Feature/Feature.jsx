@@ -8,8 +8,8 @@ const Feature = () => {
   return (
     <div className="lg:px-12 px-6 bg-primary my-12">
       <h2 className="mb-6 lg:text-5xl text-5xl font-bold text-center">
-        Translate your exhibit description to over 100 spoken languages. Bring
-        in more visitors.
+        Translate your exhibit description into over 100 spoken languages and
+        bring in more visitors.
       </h2>
       <div className="hero min-h-screen bg-primary text-secondary">
         <div className="hero-content flex-col lg:flex-row-reverse gap-9">
@@ -57,18 +57,18 @@ const Feature = () => {
             </h2>
             <p className=" my-4 text-xl">
               You write the translation, prepared exactly to your
-              specifications. The Automatic method is quick (almost instant) and
-              least effort. The Handcrafted method is meticulous, and under your
-              full control.
+              specifications.
+              <br />
+              <br />
+              The Automatic method is quick (almost instant) and least effort.
+              The Handcrafted method is meticulous, and under your full control.
             </p>
           </div>
         </div>
-        <p className="text-gray-400 text-xl">
+        <p className=" text-xl">
           If you want, you can mix and match!
         </p>
-        <h2 className="my-6 lg:text-5xl text-5xl font-bold ">
-          “Mix and Match…”:
-        </h2>
+
         <p className=" mt-4 text-xl">
           Exhibit! software lets you easily print out a QR code for each
           exhibit. All your descriptions are safely stored on the cloud. Edit
