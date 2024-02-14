@@ -15,7 +15,7 @@ const Footer = () => {
           <p className="text-sm">Helping your museum talk to the world!</p>
           <p className="text-2xl">Questions?</p>
           <p className="">
-            <a href="#">Support@Exhibit.Technology</a>
+            <a href="#">Support@Xlate.art</a>
           </p>
         </aside>
         <div>
@@ -59,7 +59,7 @@ const Footer = () => {
 
       <footer className="border-t-2  border-gray-300  footer items-center p-10 bg-gray-50 text-secondary font-semibold">
         <aside className="items-center grid-flow-col">
-          <p>© 2019 - 2023 | All Rights Reserved - Blackheath Services, LLC</p>
+          <p>© 2024 All Rights Reserved - Exhibit Software LLC</p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a>Privacy Policy |</a>
