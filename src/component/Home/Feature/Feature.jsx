@@ -6,26 +6,30 @@ import { FaRegDotCircle } from "react-icons/fa";
 
 const Feature = () => {
   return (
-    <div className="lg:px-12 px-6 bg-primary my-12">
+    <div className="lg:px-12 px-6 bg-primary mt-4">
       <h2 className="mb-6 lg:text-5xl text-5xl font-bold text-center">
         Translate your exhibit description into over 100 spoken languages and
         bring in more visitors.
       </h2>
-      <div className="hero min-h-screen bg-primary text-secondary">
+      <div className="hero h-full bg-primary text-secondary my-0 py-0">
         <div className="hero-content flex-col lg:flex-row-reverse gap-9">
           <img
             data-aos="fade-down"
             data-aos-duration="2500"
             src={img}
-            className="lg:h-[500px] lg:w-[700px] w-[300px] md:w-[600px] mx-auto rounded-lg shadow-2xl my-12"
+            className="lg:h-[500px] lg:w-[700px] w-[300px] md:w-[600px] mx-auto rounded-lg shadow-2xl "
           />
           <div>
             <img className=" w-80 h-60 " src={cardImg} alt="card-img " />
 
-            <div className="flex justify-center items-center my-2">
-              <FaLongArrowAltDown size="30px" className="text-orange-500" />
+            <div className="mt-8">
+              <span className="text-sm font-bold">Scan here:</span>
+              <img
+                src={qrImg}
+                alt="qr-code-img"
+                className="w-[380px] h-60 lg:-ml-5"
+              />
             </div>
-            <img src={qrImg} alt="qr-code-img" className="w-80 h-60" />
           </div>
         </div>
       </div>

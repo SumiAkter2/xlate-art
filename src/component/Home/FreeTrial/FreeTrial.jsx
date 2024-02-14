@@ -4,7 +4,7 @@ const FreeTrial = () => {
     <div
       data-aos="zoom-in"
       data-aos-duration="1500"
-      className="hero h-full "
+      className="hero h-full mt-6"
       style={{
         backgroundImage: `url(${bannerImg})`,
       }}
