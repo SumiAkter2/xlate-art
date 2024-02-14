@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div className="bg-primary">
       <Banner />
-      <Gallery />
+      {/* <Gallery /> */}
       <Feature />
       <FreeTrial />
     </div>

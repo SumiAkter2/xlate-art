@@ -21,9 +21,9 @@ const Gallery = () => {
   return (
     <div>
       <div className="containers  text-secondary">
-        <h2 className="heading-text uppercase text-center lg:text-5xl text-5xl font-bold mb-12">
+        {/* <h2 className="heading-text uppercase text-center lg:text-5xl text-5xl font-bold mb-12">
           OUR <span> GALLERY</span>
-        </h2>
+        </h2> */}
 
         <div class="row ">
           <div class="column">

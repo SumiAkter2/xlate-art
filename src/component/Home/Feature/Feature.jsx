@@ -5,12 +5,12 @@ const Feature = () => {
   return (
     <div className="lg:px-12 px-6 bg-primary">
       <div className="hero min-h-screen bg-primary text-secondary">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero-content flex-col ">
           <img
             data-aos="fade-down"
             data-aos-duration="2500"
             src={img}
-            className="lg:w-[650px] w-[300px] md:w-[600px] mx-auto rounded-lg shadow-2xl "
+            className="lg:w-[650px] w-[300px] md:w-[600px] mx-auto rounded-lg shadow-2xl my-12"
           />
           <div data-aos="fade-up" data-aos-duration="2000">
             <h2 className="mb-6 lg:text-5xl text-5xl font-bold ">
