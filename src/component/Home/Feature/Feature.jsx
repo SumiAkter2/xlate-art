@@ -58,18 +58,17 @@ const Feature = () => {
             <p className=" my-4 text-xl">
               You write the translation, prepared exactly to your
               specifications.
-              <br />
-              <br />
+            </p>
+            <br />
+            <p className="  text-xl">
               The Automatic method is quick (almost instant) and least effort.
               The Handcrafted method is meticulous, and under your full control.
             </p>
+            <p className="  text-xl">If you want, you can mix and match!</p>
           </div>
         </div>
-        <p className=" text-xl">
-          If you want, you can mix and match!
-        </p>
 
-        <p className=" mt-4 text-xl">
+        <p className="mt-4 text-xl">
           Exhibit! software lets you easily print out a QR code for each
           exhibit. All your descriptions are safely stored on the cloud. Edit
           and update them any time without needing to change the QR code affixed
